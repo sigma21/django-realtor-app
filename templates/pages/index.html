@@ -1,9 +1,11 @@
 {% extends 'base.html' %} 
 {% load humanize %}
-{% load static %}
+{% block title %} | Welcome {% endblock %}
 
 {% block content %}
 
+<!-- Alerts -->
+{% include 'partials/_alerts.html' %}
 <!-- Showcase -->
 <section id="showcase">
   <div class="container text-center">
