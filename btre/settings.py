@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', ')h7&kn-+fcmy3!q+frxayngb)=ifc4
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['serene-refuge-59552.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
