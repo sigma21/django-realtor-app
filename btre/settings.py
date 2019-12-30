@@ -144,8 +144,8 @@ MESSAGE_TAGS = {
 }
 
 # Email config
-# EMAIL_HOST = "smtp.gmail.com"
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = "sender mail"
-# EMAIL_HOST_PASSWORD = "sender pass"
-# EMAIL_USE_TLS = True
+EMAIL_HOST = "smtp.live.com"
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "semihkocakel@hotmail.com"
+EMAIL_HOST_PASSWORD = "W/limits.21"
+EMAIL_USE_TLS = True
