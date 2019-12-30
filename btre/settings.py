@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', ')h7&kn-+fcmy3!q+frxayngb)=ifc4
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['serene-refuge-59552.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['serene-refuge-59552.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -85,11 +85,13 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost'
+        # 'ENGINE': 'django.db.backends.postgresql',
+        # 'NAME': 'btredb',
+        # 'USER': 'postgres',
+        # 'PASSWORD': '1234',
+        # 'HOST': 'localhost'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
