@@ -147,5 +147,5 @@ MESSAGE_TAGS = {
 EMAIL_HOST = "smtp.live.com"
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "semihkocakel@hotmail.com"
-EMAIL_HOST_PASSWORD = "W/limits.21"
+EMAIL_HOST_PASSWORD = ""
 EMAIL_USE_TLS = True
