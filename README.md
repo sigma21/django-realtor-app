@@ -5,10 +5,8 @@ A real estate browsing website built with Django in the backend, HTML/CSS/JS in 
 ...
 
 
-
-
+edit1
+edit2
 
 sssss
-
-
 xxxxxx
